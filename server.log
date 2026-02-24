@@ -1,0 +1,208 @@
+[Wed Feb 25 07:03:35 2026] PHP 8.5.2 Development Server (http://localhost:8000) started
+[Wed Feb 25 07:03:45 2026] [::1]:56402 Accepted
+[Wed Feb 25 07:03:45 2026] [::1]:56416 Accepted
+[Wed Feb 25 07:03:45 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:03:45 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:03:45 2026] [::1]:56402 [200]: GET /login
+[Wed Feb 25 07:03:45 2026] [::1]:56402 Closing
+[Wed Feb 25 07:03:45 2026] DEBUG: parsed url: Array
+(
+    [0] => favicon.ico
+)
+
+[Wed Feb 25 07:03:45 2026] DEBUG: HomeController::dashboard called
+[Wed Feb 25 07:03:45 2026] [::1]:56416 [302]: GET /favicon.ico
+[Wed Feb 25 07:03:45 2026] [::1]:56416 Closing
+[Wed Feb 25 07:03:46 2026] [::1]:56432 Accepted
+[Wed Feb 25 07:03:46 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:03:46 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:03:46 2026] [::1]:56432 [200]: GET /login
+[Wed Feb 25 07:03:46 2026] [::1]:56432 Closing
+[Wed Feb 25 07:04:03 2026] [::1]:45730 Accepted
+[Wed Feb 25 07:04:03 2026] [::1]:45736 Accepted
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:04:03 2026] [::1]:45730 [200]: GET /login
+[Wed Feb 25 07:04:03 2026] [::1]:45730 Closing
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => favicon.ico
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: HomeController::dashboard called
+[Wed Feb 25 07:04:03 2026] [::1]:45736 [302]: GET /favicon.ico
+[Wed Feb 25 07:04:03 2026] [::1]:45736 Closing
+[Wed Feb 25 07:04:03 2026] [::1]:45738 Accepted
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:04:03 2026] [::1]:45738 [200]: GET /login
+[Wed Feb 25 07:04:03 2026] [::1]:45738 Closing
+[Wed Feb 25 07:04:03 2026] [::1]:45750 Accepted
+[Wed Feb 25 07:04:03 2026] [::1]:45760 Accepted
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:04:03 2026] [::1]:45750 [200]: GET /login
+[Wed Feb 25 07:04:03 2026] [::1]:45750 Closing
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => favicon.ico
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: HomeController::dashboard called
+[Wed Feb 25 07:04:03 2026] [::1]:45760 [302]: GET /favicon.ico
+[Wed Feb 25 07:04:03 2026] [::1]:45760 Closing
+[Wed Feb 25 07:04:03 2026] [::1]:45772 Accepted
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:04:03 2026] [::1]:45772 [200]: GET /login
+[Wed Feb 25 07:04:03 2026] [::1]:45772 Closing
+[Wed Feb 25 07:04:03 2026] [::1]:45778 Accepted
+[Wed Feb 25 07:04:03 2026] [::1]:45788 Accepted
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:04:03 2026] [::1]:45778 [200]: GET /login
+[Wed Feb 25 07:04:03 2026] [::1]:45778 Closing
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => favicon.ico
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: HomeController::dashboard called
+[Wed Feb 25 07:04:03 2026] [::1]:45788 [302]: GET /favicon.ico
+[Wed Feb 25 07:04:03 2026] [::1]:45788 Closing
+[Wed Feb 25 07:04:03 2026] [::1]:45802 Accepted
+[Wed Feb 25 07:04:03 2026] DEBUG: parsed url: Array
+(
+    [0] => login
+)
+
+[Wed Feb 25 07:04:03 2026] DEBUG: AuthController::login called, method=GET
+[Wed Feb 25 07:04:03 2026] [::1]:45802 [200]: GET /login
+[Wed Feb 25 07:04:03 2026] [::1]:45802 Closing
+[Wed Feb 25 07:04:24 2026] [::1]:39116 Accepted
+[Wed Feb 25 07:04:24 2026] [::1]:39122 Accepted
+[Wed Feb 25 07:04:24 2026] [::1]:39116 [302]: GET /
+[Wed Feb 25 07:04:24 2026] [::1]:39116 Closing
+[Wed Feb 25 07:04:24 2026] [::1]:39122 [200]: GET /login
+[Wed Feb 25 07:04:24 2026] [::1]:39122 Closing
+[Wed Feb 25 07:04:24 2026] [::1]:39130 Accepted
+[Wed Feb 25 07:04:24 2026] [::1]:39130 [302]: GET /favicon.ico
+[Wed Feb 25 07:04:24 2026] [::1]:39130 Closing
+[Wed Feb 25 07:04:24 2026] [::1]:39144 Accepted
+[Wed Feb 25 07:04:24 2026] [::1]:39144 [200]: GET /login
+[Wed Feb 25 07:04:24 2026] [::1]:39144 Closing
+[Wed Feb 25 07:04:28 2026] [::1]:52786 Accepted
+[Wed Feb 25 07:04:28 2026] [::1]:52792 Accepted
+[Wed Feb 25 07:04:28 2026] [::1]:52786 [200]: GET /register
+[Wed Feb 25 07:04:28 2026] [::1]:52786 Closing
+[Wed Feb 25 07:04:28 2026] [::1]:52792 [302]: GET /favicon.ico
+[Wed Feb 25 07:04:28 2026] [::1]:52792 Closing
+[Wed Feb 25 07:04:28 2026] [::1]:52800 Accepted
+[Wed Feb 25 07:04:28 2026] [::1]:52800 [200]: GET /login
+[Wed Feb 25 07:04:28 2026] [::1]:52800 Closing
+[Wed Feb 25 07:04:53 2026] [::1]:58258 Accepted
+[Wed Feb 25 07:04:53 2026] [::1]:58266 Accepted
+[Wed Feb 25 07:04:53 2026] [::1]:58258 [200]: GET /login
+[Wed Feb 25 07:04:53 2026] [::1]:58258 Closing
+[Wed Feb 25 07:04:53 2026] [::1]:58266 [302]: GET /favicon.ico
+[Wed Feb 25 07:04:53 2026] [::1]:58266 Closing
+[Wed Feb 25 07:04:53 2026] [::1]:58280 Accepted
+[Wed Feb 25 07:04:53 2026] [::1]:58280 [200]: GET /login
+[Wed Feb 25 07:04:53 2026] [::1]:58280 Closing
+[Wed Feb 25 07:06:07 2026] [::1]:43312 Accepted
+[Wed Feb 25 07:06:07 2026] [::1]:43316 Accepted
+[Wed Feb 25 07:06:07 2026] [::1]:43312 [200]: GET /login
+[Wed Feb 25 07:06:07 2026] [::1]:43312 Closing
+[Wed Feb 25 07:06:07 2026] [::1]:43316 [302]: GET /favicon.ico
+[Wed Feb 25 07:06:07 2026] [::1]:43316 Closing
+[Wed Feb 25 07:06:07 2026] [::1]:43318 Accepted
+[Wed Feb 25 07:06:07 2026] [::1]:43318 [200]: GET /login
+[Wed Feb 25 07:06:07 2026] [::1]:43318 Closing
+[Wed Feb 25 07:06:07 2026] [::1]:43328 Accepted
+[Wed Feb 25 07:06:07 2026] [::1]:43344 Accepted
+[Wed Feb 25 07:06:07 2026] [::1]:43328 [200]: GET /login
+[Wed Feb 25 07:06:07 2026] [::1]:43328 Closing
+[Wed Feb 25 07:06:08 2026] [::1]:43344 [302]: GET /favicon.ico
+[Wed Feb 25 07:06:08 2026] [::1]:43344 Closing
+[Wed Feb 25 07:06:08 2026] [::1]:43348 Accepted
+[Wed Feb 25 07:06:08 2026] [::1]:43348 [200]: GET /login
+[Wed Feb 25 07:06:08 2026] [::1]:43348 Closing
+[Wed Feb 25 07:06:08 2026] [::1]:43350 Accepted
+[Wed Feb 25 07:06:08 2026] [::1]:43360 Accepted
+[Wed Feb 25 07:06:08 2026] [::1]:43350 [200]: GET /login
+[Wed Feb 25 07:06:08 2026] [::1]:43350 Closing
+[Wed Feb 25 07:06:08 2026] [::1]:43360 [302]: GET /favicon.ico
+[Wed Feb 25 07:06:08 2026] [::1]:43360 Closing
+[Wed Feb 25 07:06:08 2026] [::1]:43370 Accepted
+[Wed Feb 25 07:06:08 2026] [::1]:43370 [200]: GET /login
+[Wed Feb 25 07:06:08 2026] [::1]:43370 Closing
+[Wed Feb 25 07:06:11 2026] [::1]:51138 Accepted
+[Wed Feb 25 07:06:11 2026] [::1]:51152 Accepted
+[Wed Feb 25 07:06:11 2026] [::1]:51138 [200]: GET /register
+[Wed Feb 25 07:06:11 2026] [::1]:51138 Closing
+[Wed Feb 25 07:06:11 2026] [::1]:51152 [302]: GET /favicon.ico
+[Wed Feb 25 07:06:11 2026] [::1]:51152 Closing
+[Wed Feb 25 07:06:11 2026] [::1]:51162 Accepted
+[Wed Feb 25 07:06:11 2026] [::1]:51162 [200]: GET /login
+[Wed Feb 25 07:06:11 2026] [::1]:51162 Closing
+[Wed Feb 25 07:06:22 2026] [::1]:52810 Accepted
+[Wed Feb 25 07:06:22 2026] [::1]:52818 Accepted
+[Wed Feb 25 07:06:22 2026] [::1]:52810 [302]: POST /register
+[Wed Feb 25 07:06:22 2026] [::1]:52810 Closing
+[Wed Feb 25 07:06:22 2026] [::1]:52818 [200]: GET /login
+[Wed Feb 25 07:06:22 2026] [::1]:52818 Closing
+[Wed Feb 25 07:06:22 2026] [::1]:52824 Accepted
+[Wed Feb 25 07:06:22 2026] [::1]:52824 [302]: GET /favicon.ico
+[Wed Feb 25 07:06:22 2026] [::1]:52824 Closing
+[Wed Feb 25 07:06:22 2026] [::1]:52836 Accepted
+[Wed Feb 25 07:06:22 2026] [::1]:52836 [200]: GET /login
+[Wed Feb 25 07:06:22 2026] [::1]:52836 Closing
+[Wed Feb 25 07:06:30 2026] [::1]:36050 Accepted
+[Wed Feb 25 07:06:30 2026] [::1]:36066 Accepted
+[Wed Feb 25 07:06:30 2026] [::1]:36050 [302]: POST /login
+[Wed Feb 25 07:06:30 2026] [::1]:36050 Closing
+[Wed Feb 25 07:06:30 2026] [::1]:36066 [200]: GET /dashboard
+[Wed Feb 25 07:06:30 2026] [::1]:36066 Closing
+[Wed Feb 25 07:06:30 2026] [::1]:36068 Accepted
+[Wed Feb 25 07:06:30 2026] [::1]:36068 [200]: GET /favicon.ico
+[Wed Feb 25 07:06:30 2026] [::1]:36068 Closing
+[Wed Feb 25 07:06:34 2026] [::1]:36072 Accepted
+[Wed Feb 25 07:06:34 2026] [::1]:36078 Accepted
+[Wed Feb 25 07:06:34 2026] [::1]:36072 [200]: GET /users
+[Wed Feb 25 07:06:34 2026] [::1]:36072 Closing
+[Wed Feb 25 07:06:34 2026] [::1]:36078 [200]: GET /favicon.ico
+[Wed Feb 25 07:06:34 2026] [::1]:36078 Closing
+[Wed Feb 25 07:06:36 2026] [::1]:36092 Accepted
+[Wed Feb 25 07:06:36 2026] [::1]:36106 Accepted
+[Wed Feb 25 07:06:36 2026] [::1]:36092 [200]: GET /dashboard
+[Wed Feb 25 07:06:36 2026] [::1]:36092 Closing
+[Wed Feb 25 07:06:36 2026] [::1]:36106 [200]: GET /favicon.ico
+[Wed Feb 25 07:06:36 2026] [::1]:36106 Closing
