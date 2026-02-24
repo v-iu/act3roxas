@@ -25,9 +25,9 @@ This repository contains a minimal full-stack website built using PHP with an MV
 ## Installation
 1. Clone the repo:
    ```sh
-git clone https://github.com/<your-user>/mvc-php-app.git
-cd mvc-php-app
-```
+   git clone https://github.com/<your-user>/mvc-php-app.git
+   cd mvc-php-app
+   ```
 2. Create the database and table using the provided SQL.
    *If you have a local MySQL/MariaDB server running (XAMPP on Arch, for example), run:*
    ```sh
@@ -43,10 +43,11 @@ cd mvc-php-app
 
 4. Serve the `public` directory with your Apache/Nginx server, or use PHP's built-in server for testing:
    ```sh
-php -S localhost:8000 -t public
-```
+   php -S localhost:8000 -t public
+   ```
 
 5. Visit `http://localhost:8000` in your browser. You will be redirected to the login page; if you don't yet have an account you must register first using the **Register** link. The forms enforce simple validation (username length, valid email, password minimum length).
+
 ## GitHub
 This project can be pushed to a GitHub repository. Ensure sensitive info is omitted.
 
