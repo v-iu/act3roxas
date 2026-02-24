@@ -12,20 +12,37 @@ class App
     {
         $url = $this->parseUrl();
 
-        // special routing for auth actions to avoid needing /auth prefix
-        $authMethods = ['login', 'register', 'logout'];
-        if (isset($url[0]) && in_array(strtolower($url[0]), $authMethods, true)) {
-            // route to AuthController
-            $this->controller = 'AuthController';
-            $methodName = strtolower($url[0]);
-            unset($url[0]);
-        } else {
-            // default controller detection based on URL segment
-            if (isset($url[0]) && file_exists('../app/controllers/' . ucwords($url[0]) . 'Controller.php')) {
-                $this->controller = ucwords($url[0]) . 'Controller';
-                unset($url[0]);
+        $methodName = null;
+
+        // API routing prefix /api
+        if (isset($url[0]) && strtolower($url[0]) === 'api') {
+            // remove 'api' segment
+            array_shift($url);
+            if (isset($url[0])) {
+                // controller name after api, e.g. api/auth -> ApiAuthController
+                $this->controller = 'Api' . ucwords($url[0]) . 'Controller';
+                array_shift($url);
             }
-            $methodName = isset($url[0]) ? $url[0] : null;
+            if (isset($url[0])) {
+                $methodName = strtolower($url[0]);
+                array_shift($url);
+            }
+        } else {
+            // special routing for auth actions to avoid needing /auth prefix
+            $authMethods = ['login', 'register', 'logout'];
+            if (isset($url[0]) && in_array(strtolower($url[0]), $authMethods, true)) {
+                // route to AuthController
+                $this->controller = 'AuthController';
+                $methodName = strtolower($url[0]);
+                unset($url[0]);
+            } else {
+                // default controller detection based on URL segment
+                if (isset($url[0]) && file_exists('../app/controllers/' . ucwords($url[0]) . 'Controller.php')) {
+                    $this->controller = ucwords($url[0]) . 'Controller';
+                    unset($url[0]);
+                }
+                $methodName = isset($url[0]) ? $url[0] : null;
+            }
         }
 
         require_once '../app/controllers/' . $this->controller . '.php';

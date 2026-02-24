@@ -206,3 +206,40 @@
 [Wed Feb 25 07:06:36 2026] [::1]:36092 Closing
 [Wed Feb 25 07:06:36 2026] [::1]:36106 [200]: GET /favicon.ico
 [Wed Feb 25 07:06:36 2026] [::1]:36106 Closing
+[Wed Feb 25 07:18:02 2026] [::1]:37202 Accepted
+[Wed Feb 25 07:18:02 2026] [::1]:37214 Accepted
+[Wed Feb 25 07:18:02 2026] PHP Fatal error:  Uncaught Error: Class "Model" not found in /home/malusdahlia/Projects/act3roxas/app/models/User.php:4
+Stack trace:
+#0 /home/malusdahlia/Projects/act3roxas/app/services/SoapService.php(4): require_once()
+#1 /home/malusdahlia/Projects/act3roxas/public/soap.php(4): require_once('...')
+#2 {main}
+  thrown in /home/malusdahlia/Projects/act3roxas/app/models/User.php on line 4
+[Wed Feb 25 07:18:02 2026] [::1]:37202 [500]: GET /soap.php - Uncaught Error: Class "Model" not found in /home/malusdahlia/Projects/act3roxas/app/models/User.php:4
+Stack trace:
+#0 /home/malusdahlia/Projects/act3roxas/app/services/SoapService.php(4): require_once()
+#1 /home/malusdahlia/Projects/act3roxas/public/soap.php(4): require_once('...')
+#2 {main}
+  thrown in /home/malusdahlia/Projects/act3roxas/app/models/User.php on line 4
+[Wed Feb 25 07:18:02 2026] [::1]:37202 Closing
+[Wed Feb 25 07:21:55 2026] [::1]:37214 Closed without sending a request; it was probably just an unused speculative preconnection
+[Wed Feb 25 07:21:55 2026] [::1]:37214 Closing
+[Wed Feb 25 07:21:55 2026] [::1]:56598 Accepted
+[Wed Feb 25 07:21:55 2026] [::1]:56610 Accepted
+[Wed Feb 25 07:21:55 2026] PHP Fatal error:  Uncaught Error: Class "Model" not found in /home/malusdahlia/Projects/act3roxas/app/models/User.php:4
+Stack trace:
+#0 /home/malusdahlia/Projects/act3roxas/app/services/SoapService.php(4): require_once()
+#1 /home/malusdahlia/Projects/act3roxas/public/soap.php(4): require_once('...')
+#2 {main}
+  thrown in /home/malusdahlia/Projects/act3roxas/app/models/User.php on line 4
+[Wed Feb 25 07:21:55 2026] [::1]:56598 [500]: GET /soap.php - Uncaught Error: Class "Model" not found in /home/malusdahlia/Projects/act3roxas/app/models/User.php:4
+Stack trace:
+#0 /home/malusdahlia/Projects/act3roxas/app/services/SoapService.php(4): require_once()
+#1 /home/malusdahlia/Projects/act3roxas/public/soap.php(4): require_once('...')
+#2 {main}
+  thrown in /home/malusdahlia/Projects/act3roxas/app/models/User.php on line 4
+[Wed Feb 25 07:21:55 2026] [::1]:56598 Closing
+[Wed Feb 25 07:22:13 2026] [::1]:60758 Accepted
+[Wed Feb 25 07:22:13 2026] [::1]:56610 [200]: GET /
+[Wed Feb 25 07:22:13 2026] [::1]:56610 Closing
+[Wed Feb 25 07:22:13 2026] [::1]:60758 [200]: GET /favicon.ico
+[Wed Feb 25 07:22:13 2026] [::1]:60758 Closing
